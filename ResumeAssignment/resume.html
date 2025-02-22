@@ -1,47 +1,120 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      border-bottom: 2px solid #666;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    .header p {
+      font-size: 1.2em;
+      color: #555;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section h2 {
+      font-size: 1.8em;
+      color: #444;
+      margin-bottom: 10px;
+    }
+    .section p {
+      margin: 5px 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 5px 0;
+    }
+    .skills, .education, .experience {
+      padding-left: 15px;
+    }
+    .skills li, .education li, .experience li {
+      border-left: 2px solid #666;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background-color: #f4f4f4;
+      border-top: 2px solid #666;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-
-    <table width="60%" align="center" border="1" cellpadding="10">
-        <tr>
-            <td colspan="2" align="center">
-                <h2>Your Name</h2>
-                <p>Email: your.email@example.com | Phone: (123) 456-7890</p>
-            </td>
-        </tr>
-        <tr>
-            <td width="30%" align="center">
-                <img src="image1.jpg" alt=" Photo" width="150">
-            </td>
-            <td>
-                <h3>Summary</h3>
-                <p>Brief description about yourself.</p>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Education</strong></td>
-            <td>Degree - University Name, Year</td>
-        </tr>
-        <tr>
-            <td><strong>Experience</strong></td>
-            <td>Job Title - Company Name, Year</td>
-        </tr>
-        <tr>
-            <td><strong>Skills</strong></td>
-            <td>
-                <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-
+  <div class="container">
+    <header class="header">
+      <h1>Kunal Bahoriya</h1>
+      <p>Email: bahoriyakunal@gmail.com | Phone: 9156533412</p>
+      <p>Location: Nagpur, Maharashtra | LinkedIn: linkedin.com/in/kunalbahoriya</p>
+    </header>
+    <section class="section">
+      <h2>Professional Summary</h2>
+      <p>Motivated and results-driven professional with a passion for delivering high-quality work. Skilled in programming, problem-solving, and communication.</p>
+    </section>
+    <section class="section">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>JAVA</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>Education</h2>
+      <ul class="education">
+        <li>
+          <strong>Bachelor in Information Technology</strong> - G.H Raisoni College of Engineering <br>
+          <strong>Higher Sceondary School</strong> - Maharashtra State Board<br>
+          <strong>Sceondary School</strong> - Maharashtra State Board
+        </li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2> Experience</h2>
+      <ul class="experience">
+        
+        <li>
+          <strong>JAVA Intern</strong> - Codsoft
+          - Completed Java-based assignments. <br>
+          - Enhanced task completion by team work.
+        </li>
+        <li>
+            <strong>Web Developer Intern</strong> - ByteUprise
+            -Built a responsive weather forecasting web application using HTML, CSS, and JavaScript, providing real-time weather 
+            updates based on user-input city names. <br>
+            -Integrated  OpenWeatherMap API to fetch and display weather data, including temperature, wind speed, and weather 
+            descriptions.
+        </li>
+      </ul>
+    </section>
+    
+  </div>
 </body>
 </html>
+

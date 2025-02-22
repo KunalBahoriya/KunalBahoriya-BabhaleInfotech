@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Header</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            padding-top: 60px; 
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav li {
+            display: inline;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            color: #0070d2;
+        }
+        .content {
+            padding: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Proinsure</div>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="content">
+        <h1>Humanizing Your Insurance</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo temporibus alias magni distinctio sunt unde architecto ipsum dicta, praesentium amet est dolore.</p>
+        <button>View Plans</button>
+    </div>
+
+</body>
+</html>
+

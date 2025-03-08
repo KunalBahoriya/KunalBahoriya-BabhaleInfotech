@@ -48,11 +48,100 @@
         }
         .nav a:hover {
             color: #0070d2;
+            
         }
         .content {
             padding: 20px;
             line-height: 1.6;
+            margin: 20px;
+            text-align: left;
+            
+            
+
         }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2e294e;
+    color: #fff;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.text-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.text-content h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #2e294e;
+}
+
+.image-content {
+    flex: 1;
+    text-align: right;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .image-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+        
+        
     </style>
 </head>
 <body>
@@ -62,13 +151,22 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
+            <button>View Plans</button>
         </ul>
     </header>
 
     <div class="content">
-        <h1>Humanizing Your Insurance</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo temporibus alias magni distinctio sunt unde architecto ipsum dicta, praesentium amet est dolore.</p>
-        <button>View Plans</button>
+        <section class="banner">
+            <div class="text-content">
+                <h2>Humanazing Your <br> Insurance</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo temporibus alias magni distinctio sunt unde architecto ipsum dicta, praesentium amet est dolore.</p>
+                <button class="btn">View Plans</button>
+            </div>
+            <div class="image-content">
+                <img src="image.png" alt="Family holding a sparkler">
+            </div>
+        </section>
+    
     </div>
 
 </body>

@@ -140,9 +140,210 @@ body {
     }
 }
 
+.banner1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #201b1b;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.text-content1 {
+    flex: 1;
+    padding: 40px;
+}
+
+.text-content1 h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.text-content1 p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    color: #100f0f;
+    border: 2px solid #131313;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e40d38;
+    color: #121212;
+}
+
+.image-content {
+    flex: 1;
+    
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .image-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
         
-        
-    </style>
+        .container2{
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .underline {
+            width: 50px;
+            height: 3px;
+            background-color: #222;
+            margin: 0 auto 20px auto;
+            text-align: left;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .feature {
+            width: 30%;
+        }
+
+        .feature .icon {
+            width: 40px;
+            height: 40px;
+            background-color: #7DA4FF;
+            border-radius: 50%;
+            margin: 0 auto 15px auto;
+            position: relative;
+        }
+
+        .feature h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container3 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #2e294e;
+            color: #fff;
+            padding: 50px;
+            max-width: 1200px;
+            margin: 50px auto;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .text {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .button {
+            border: 1px solid white;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .button:hover {
+            background-color: white;
+            color: #1a1530;
+        }
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    gap: 20px;
+
+}
+footer {
+    background-color: #2c253b;
+    color: white;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+ </style>
 </head>
 <body>
     <header class="header">
@@ -168,6 +369,64 @@ body {
         </section>
     
     </div>
+
+    <div class="content1">
+        <section class="banner1">
+            <div class="text-content1">
+                <h2>About the Insure</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur explicabo temporibus alias magni distinctio sunt unde architecto ipsum dicta, praesentium amet est dolore.</p>
+                <button class="btn">Know More</button>
+            </div>
+            <div class="image-content1">
+                <img src="02.png" alt="Family holding a sparkler">
+            </div>
+        </section>
+    
+    </div>
+    <div class="container2">
+        <h2>We are different</h2>
+        <div class="underline"></div>
+        <div class="features">
+            <div class="feature">
+                <div class="icon"></div>
+                <h3>Easy Process</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae et provident commodi atque fugiat sequi ex unde dolores.</p>
+            </div>
+            <div class="feature">
+                <div class="icon"></div>
+                <h3>Affordable Price</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae et provident commodi atque fugiat sequi ex unde dolores.</p>
+            </div>
+            <div class="feature">
+                <div class="icon"></div>
+                <h3>You Come First</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae et provident commodi atque fugiat sequi ex unde dolores.</p>
+            </div>
+        </div>
+    </div>
+
+<div class="container3">
+    <div class="text">
+        Find out more <br>
+        about how we work
+    </div>
+    <a href="#" class="button">How We Work</a>
+</div>
+<header>
+    <h1 class="logo">Proinsure</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">How we work</a></li>
+        </ul>
+    </nav>
+</header>
+
+<footer>
+    <p>© AltCampus Services Pvt Ltd, 2018-present</p>
+</footer>
 
 </body>
 </html>
